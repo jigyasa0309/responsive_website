@@ -1,11 +1,12 @@
 
   h1{
-font-family:cursive;
-font-size:180%;
+font-family:"fantasy";
+font-weight: bold;
+font: size 72px;
   text-transform: uppercase;
   font-weight: 250;
   text-align: center;
-  color:coral;
+  color:rgb(2, 1, 0);
 margin: auto auto;
 }
 /*tabble css*/
@@ -86,7 +87,7 @@ section{
   background: blue;
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 1250px) {
   .topnav .login-container {
     float: none;
   }
@@ -122,7 +123,7 @@ font-size:180%;
   z-index: 1;
   top: 0;
   left: 0;
-  /*background-color: #111;*/
+  background-color: white;
   overflow-x: hidden;
   transition: 0s;
   padding-top: 70px;
@@ -197,6 +198,7 @@ h1 {
       font-style: italic;
     }
   }
+  
 .flex {
   display: flex;
   margiN-LEFT:150PX;
@@ -372,6 +374,8 @@ h1 {
   font-weight: bold;
  }
  /*for form in the center */
+ @import url(https://fonts.googleapis.com/css?family=Open+Sans:400italic,400,300,600);
+
  .formcenter {
   display:flex;
   justify-content: center;
